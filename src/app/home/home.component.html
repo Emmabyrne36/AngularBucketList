@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-md-6">
+        
+     
+      <form>
+        <input type="text" name="item" placeholder="Goal" [(ngModel)]="goalText">
+        <button type="submit" class="btn btn-primary btn-sm" (click)="addItem()">Add an item</button>
+      </form>
+    </div>
+    <div class="col-md-6">
+        <p>Bucket list items ({{itemCount}}) </p>
+        <p *ngFor="let goal of goals">
+          {{goal}}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
