@@ -1,18 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    height: 100%;
+}
 
 body {
-    background: #5591cf;
+    height: 100%;
 }
 
-.navColour {
-    background: #e9ecef;
+.centreImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
+// .navColour {
+//     background: #e9ecef;
+// }
 
 .goalElements {
-    background-color: lightgray;
+    //background-color: #025abb;
+    background-color: white;
     cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
 }
 
 li { 
     cursor: pointer; 
+}
+
+.jumbotron {
+    background-color: #e4e4e4;
 }

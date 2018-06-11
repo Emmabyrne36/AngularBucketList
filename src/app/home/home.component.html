@@ -1,11 +1,9 @@
-<div class="container" [@goals]="goals.length">
+<div [@goals]="goals.length">
   <div class="jumbotron">
     <div class="row">
       <div class="col-md-6">
-        
-     
       <form>
-        <input type="text" name="item" placeholder="Goal" [(ngModel)]="goalText">
+        <input class="input-group mb-3" type="text" name="item" placeholder="Goal" [(ngModel)]="goalText">
         <button type="submit" class="btn btn-primary btn-sm" (click)="addItem()">Add an item</button>
       </form>
     </div>
