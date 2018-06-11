@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" [@goals]="goals.length">
   <div class="jumbotron">
     <div class="row">
       <div class="col-md-6">
@@ -11,7 +11,7 @@
     </div>
     <div class="col-md-6">
         <p>Bucket list items ({{itemCount}}) </p>
-        <p *ngFor="let goal of goals">
+        <p class="goalElements" *ngFor="let goal of goals; let i = index" (click)="removeItem(i)">
           {{goal}}
         </p>
       </div>
