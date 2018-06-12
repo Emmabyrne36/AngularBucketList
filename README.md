@@ -1,6 +1,9 @@
-# Ng5
+# Angular Bucket List
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+
+Inspiration for this application was taken from the free online course at:
+https://www.udemy.com/angular-5/learn/v4/content.
 
 ## Development server
 
