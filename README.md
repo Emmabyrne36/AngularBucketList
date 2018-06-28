@@ -5,6 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Inspiration for this application was taken from the free online course at:
 https://www.udemy.com/angular-5/learn/v4/content.
 
+Application is hosted at: https://emmabyrne36.github.io/AngularBucketList/
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
